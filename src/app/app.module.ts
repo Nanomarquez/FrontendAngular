@@ -31,9 +31,11 @@ import { MatDialogModule } from '@angular/material/dialog';
 
 //grillas material
 import { MatGridListModule } from '@angular/material/grid-list';
+import { DialogAddEditComponent } from './Dialogs/dialog-add-edit/dialog-add-edit.component';
+import { DialogoDeleteComponent } from './Dialogs/dialogo-delete/dialogo-delete.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, DialogAddEditComponent, DialogoDeleteComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
